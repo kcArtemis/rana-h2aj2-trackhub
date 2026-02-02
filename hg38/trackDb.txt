@@ -4,32 +4,37 @@ shortLabel gene_exp
 longLabel Gene Expression for Replicates
 type bigWig
 visibility full
+autoScale on
+alwaysZero on
 
     track rep1_H2AJ_plus
     parent Rana_H2AJ_KO
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f41763666c12af2/display?to_ext=bigwig
-    shortLabel Rep2 Case
-    type bw
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f41763666c12af2/display?to_ext=bw
+    shortLabel Rep1 H2AJ +
+    type bigWig
     color 0,0,255
+    strand +
 
     track rep1_H2AJ_minus
     parent Rana_H2AJ_KO
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359912ed0da88016fa/display?to_ext=bigwig
-    shortLabel Rep2 Case
-    type bw
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359912ed0da88016fa/display?to_ext=bw
+    shortLabel Rep1 H2AJ -
+    type bigWig
     color 0,0,255
+    strand -
 
     track rep1_control_plus
     parent Rana_H2AJ_KO
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135aba24dcf5cf2a2c4/display?to_ext=bigwig
-    shortLabel Rep2 Control
-    type bw
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135aba24dcf5cf2a2c4/display?to_ext=bw
+    shortLabel Rep1 Ctrl +
+    type bigWig
     color 255,0,0
+    strand +
 
     track rep1_control_minus
     parent Rana_H2AJ_KO
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352559893d388dd5f5/display?to_ext=bigwig
-    shortLabel Rep2 Control
-    type bw
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352559893d388dd5f5/display?to_ext=bw
+    shortLabel Rep1 Ctrl -
+    type bigWig
     color 255,0,0
-
+    strand -
