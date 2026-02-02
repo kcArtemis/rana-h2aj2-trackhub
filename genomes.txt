@@ -1,1 +1,1 @@
-hg38 hg38
+hg38 https://raw.githubusercontent.com/kcArtemis/rana-h2aj2-trackhub/main/hg38/trackDb.txt
