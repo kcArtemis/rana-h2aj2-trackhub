@@ -1,5 +1,5 @@
 hub Rana_H2AJ_KO
 shortLabel Rana H2AJ KO
 longLabel Rana H2AJ KO Gene Expression (Case vs Control)
-genomesFile genomes.txt
+genomesFile https://raw.githubusercontent.com/kcArtemis/rana-h2aj2-trackhub/main/genomes.txt
 email deep.patel@yale.edu
